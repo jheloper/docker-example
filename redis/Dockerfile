@@ -1,6 +1,6 @@
-FROM ubuntu:14.04
+FROM ubuntu:trusty
 MAINTAINER Kim Joong Hyeon "karis0222@gmail.com"
-ENV REFRESHED_AT 2016-10-19
+ENV REFRESHED_AT 2016-10-20
 
 RUN apt-get -yqq update && apt-get -yqq install redis-server redis-tools
 
