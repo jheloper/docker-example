@@ -1,0 +1,8 @@
+version: '3'
+services:
+  java:
+    build:
+      context: ./java
+      dockerfile: Dockerfile
+    stdin_open: true
+    tty: true
