@@ -1,5 +1,5 @@
 FROM ubuntu:trusty
-MAINTAINER Kim Joong Hyeon "karis0222@gmail.com"
+LABEL MAINTAINER="jheloper9102@gmail.com"
 RUN apt-get update
 RUN apt-get install -y openssh-server
 RUN mkdir /var/run/sshd

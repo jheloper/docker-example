@@ -1,6 +1,6 @@
 FROM ubuntu:trusty
-MAINTAINER Kim Joong Hyeon "karis0222@gmail.com"
-ENV REFRESHED_AT 2016-10-20
+LABEL MAINTAINER="jheloper9102@gmail.com"
+ENV REFRESHED_AT 2018-01-17
 
 RUN apt-get update
 RUN apt-get -y -q install nginx

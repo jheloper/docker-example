@@ -1,6 +1,6 @@
 FROM ubuntu:trusty
-MAINTAINER Kim Joong Hyeon "karis0222@gmail.com"
-ENV REFRESHED_AT 2016-10-20
+LABEL MAINTAINER="jheloper9102@gmail.com"
+ENV REFRESHED_AT 2018-01-17
 
 RUN sed -i 's/archive.ubuntu.com/ftp.daum.net/g' /etc/apt/sources.list
 RUN apt-get -yqq update && apt-get -yqq install build-essential software-properties-common && apt-add-repository ppa:brightbox/ruby-ng

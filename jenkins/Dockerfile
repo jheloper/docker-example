@@ -1,6 +1,6 @@
 FROM jenkins
-MAINTAINER Kim Joong Hyeon "karis0222@gmail.com"
-ENV REFRESHED_AT 2016-10-20
+LABEL MAINTAINER="jheloper9102@gmail.com"
+ENV REFRESHED_AT 2018-01-17
 
 USER root
 RUN apt-get -qqy update && apt-get install -qqy sudo
